@@ -13,6 +13,7 @@ jobs:
 
   build-deploy-aks:
     runs-on: ubuntu-latest
+    environment: dev
     env:
       DOCKER_REPOSITORY: cashfoley
       IMAGE_NAME: web-app
